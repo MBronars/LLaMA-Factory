@@ -158,3 +158,18 @@ class CustomSeq2SeqTrainer(Seq2SeqTrainer):
         with open(output_prediction_file, "w", encoding="utf-8") as f:
             for text, pred, label in zip(decoded_inputs, decoded_preds, decoded_labels):
                 f.write(json.dumps({"prompt": text, "predict": pred, "label": label}, ensure_ascii=False) + "\n")
+    
+    def evaluate(self, metric_key_prefix="eval", **gen_kwargs):
+        sample_eval = True
+        if not sample_eval or 'eval_dataset' in gen_kwargs.keys():
+            return super().evaluate(metric_key_prefix=metric_key_prefix, **gen_kwargs)
+
+        sampled_dataset = {}
+
+        for dataset_name, dataset in self.eval_dataset.items():
+            num_samples = min(5000, len(dataset))
+            random_indices = np.random.choice(len(dataset), num_samples, replace=False)
+            sub_eval_dataset = Subset(dataset, random_indices)
+            sampled_dataset[dataset_name] = sub_eval_dataset
+
+        return super().evaluate(eval_dataset=sampled_dataset, metric_key_prefix=metric_key_prefix, **gen_kwargs)

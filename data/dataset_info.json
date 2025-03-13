@@ -1,4 +1,34 @@
 {
+  "tower3_wrist_training_atomic_subgoals": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/qwen/tower3_atomic_subgoals_training.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "tower3_wrist_val_atomic_subgoals": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/qwen/tower3_atomic_subgoals_val.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
