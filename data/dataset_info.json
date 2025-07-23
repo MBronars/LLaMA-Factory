@@ -1,4 +1,49 @@
 {
+  "peract_think_ans_hist": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/early_experiments/peract_think_ans_hist.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "peract_think_ans": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/early_experiments/peract_think_ans.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "peract_think_ans_val": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/early_experiments/peract_think_ans_val.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
