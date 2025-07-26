@@ -1,4 +1,154 @@
 {
+  "robopoint_points": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/robopoint_points.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "robopoint_vqa": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/robopoint_vqa.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "sharerobot_traj_aff": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/sharerobot_traj_aff.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "sharerobot_traj": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/sharerobot_traj.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "groceries_blocks_10": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/groceries_blocks_10.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "robopoint_bboxes": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/robopoint_bboxes.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_10": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/gembench_10.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "peract_think_ans_hist": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/early_experiments/peract_think_ans_hist.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "peract_think_ans": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/early_experiments/peract_think_ans.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "peract_think_ans_val": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/early_experiments/peract_think_ans_val.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
