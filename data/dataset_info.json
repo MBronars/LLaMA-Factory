@@ -1,4 +1,49 @@
 {
+  "gembench_CoTeval_train": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_CoTeval_val": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_val.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_CoTeval_test": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_test.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "robopoint_points": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/robopoint_points.json",
     "formatting": "sharegpt",
