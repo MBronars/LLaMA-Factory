@@ -44,6 +44,21 @@
       "assistant_tag": "assistant"
     }
   },
+  "sharerobot_traj_aff_no_cot": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/sharerobot_traj_aff_no_cot.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "sharerobot_traj": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/sharerobot_traj.json",
     "formatting": "sharegpt",
@@ -59,8 +74,38 @@
       "assistant_tag": "assistant"
     }
   },
+  "sharerobot_traj_no_cot": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/sharerobot_traj_no_cot.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "groceries_blocks_10": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/groceries_blocks_10.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "groceries_blocks_10_no_cot": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/groceries_blocks_10_no_cot.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
@@ -91,6 +136,21 @@
   },
   "gembench_10": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/gembench_10.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_10_no_cot": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/gembench_10_no_cot.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
