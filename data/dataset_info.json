@@ -29,6 +29,66 @@
       "assistant_tag": "assistant"
     }
   },
+    "gembench_CoTeval_test_smaller": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_test_smaller.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_CoTeval_val_smaller": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_val_smaller.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_CoTeval_test_small": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_test_small.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_CoTeval_val_small": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_val_small.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "gembench_CoTeval_test": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_test.json",
     "formatting": "sharegpt",
