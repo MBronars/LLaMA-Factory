@@ -14,6 +14,21 @@
       "assistant_tag": "assistant"
     }
   },
+  "gembench_noCoTeval_train": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_noCoTeval_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "gembench_CoTeval_val": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_val.json",
     "formatting": "sharegpt",
@@ -29,7 +44,7 @@
       "assistant_tag": "assistant"
     }
   },
-    "gembench_CoTeval_test_smaller": {
+  "gembench_CoTeval_test_smaller": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_test_smaller.json",
     "formatting": "sharegpt",
     "columns": {
@@ -91,6 +106,36 @@
   },
   "gembench_CoTeval_test": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_CoTeval_test.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_noCoTeval_test_smaller": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_noCoTeval_test_smaller.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_noCoTeval_val_smaller": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/val_sets/gembench_noCoTeval_val_smaller.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
@@ -256,6 +301,21 @@
   },
   "gembench_10_no_cot": {
     "file_name": "/data/group_data/katefgroup/VLA/data/jsons/gembench_10_no_cot.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images",
+      "system": "system"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "gembench_full_no_cot": {
+    "file_name": "/data/group_data/katefgroup/VLA/data/jsons/ICRA/qwen_final_annotations/gembench_noCoT.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
